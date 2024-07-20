@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+}
+
+.bg-img{
+    background-image: url(/images/bg-img.jpg);
+    min-height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.divbutton{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    padding: 8px 18px; 
+    border-radius: 50px;
+    font-size: 25px;
+    font-family: cursive;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    background-color: rgba(0, 204, 255, 0.705);
+    color: black;
+}
+
+.button{
+    position: relative;
+    padding: 5px 15px;
+    border-radius: 50px;
+    font-size: 20px;
+    margin-top: 2%;
+    font-family: cursive;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    background-color: rgba(0, 204, 255, 0.705);
+    color: black;
+}
+
+.button:hover{
+    background-color: rgba(255, 0, 0, 0.705);
+}
+
+.divsearch{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    padding: 8px 18px;
+    border-radius: 50px;
+    font-size: 25px;
+    font-family: cursive;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    cursor: alias;
+    color: black;
+}
+.container{
+    position: relative;
+    
+    
+    width: auto;
+    float: right;
+    display: flex;
+    flex-direction: column;
+}
+
+.topnav{
+    overflow: hidden;
+    background-color: none;
+}
+
+.topnav a{
+    float: left;
+    text-align: center;
+    padding: 16px 18px;
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+
+.topnav a:hover{
+    color: red;
+}
+
+.divbutton:hover{
+    background-color: rgba(255, 0, 0, 0.705);
+}
+
+.site_logo{
+    overflow: hidden;
+    padding: 20px;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 250px;
+    width: 100%;
+    height: auto;
+}
+
+.post{
+    display: flex;
+}
+
+.column{
+    flex: 48%;
+    padding: 27px;
+}
+
+.section{
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+
+
+footer{
+    display: block;
+    text-align: center;
+    padding: 15px;
+    font-size: 18px;
+    background-color: rgba(0, 204, 255, 0.705);
+}  
